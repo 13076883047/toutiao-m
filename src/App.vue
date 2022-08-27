@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>黑马头条</h1>
+    <h1 class="box">黑马头条</h1>
     <router-view />
     <div>
       <i class="toutiao toutiao-gengduo"></i>
