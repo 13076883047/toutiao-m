@@ -14,7 +14,8 @@ export default new Vuex.Store({
     // 传入的是一个对象,包括用户token等信息
     // user: null
     // user: JSON.parse(window.localStorage.getItem(USER_TOKEN))
-    use: getItem(USER_TOKEN)
+    user: getItem(USER_TOKEN)
+    // noLogin: true
   },
   getters: {
   },
@@ -25,6 +26,9 @@ export default new Vuex.Store({
       // window.localStorage.setItem(USER_TOKEN, JSON.stringify(data))
       setItem(USER_TOKEN, state.user)
     }
+    // setNoLogin(state, payload) {
+    //   state.noLogin = payload
+    // }
   },
   actions: {
   },
