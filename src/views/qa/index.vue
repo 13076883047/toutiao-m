@@ -5,7 +5,7 @@
 </template>
 <script>
     export default {
-
+        name: 'qaIndex'
     }
 </script>
 <style lang="">

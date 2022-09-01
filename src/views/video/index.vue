@@ -5,7 +5,7 @@
 </template>
 <script>
     export default {
-
+        name: 'VideoIndex'
     }
 </script>
 <style lang="">

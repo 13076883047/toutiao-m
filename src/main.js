@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 格式化时间
+import '@/utils/dayjs'
 // 移动端vant组件库
 import vant from 'vant'
 import 'vant/lib/index.css'

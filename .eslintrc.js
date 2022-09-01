@@ -17,6 +17,7 @@ module.exports = {
     'eol-last': 0,
     'space-before-function-paren': 0, // 不检查函数前的空格
     'no-multi-spaces': 'off',
+    semi: 0,
     'vue/multi-word-component-names': [
       'error',
       {

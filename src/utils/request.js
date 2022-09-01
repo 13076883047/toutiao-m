@@ -17,7 +17,7 @@ request.interceptors.request.use(function (config) {
     if (user && user.token) {
         config.headers.Authorization = `Bearer ${user.token}`
     }
-    console.log(config)
+    // console.log(config)
     return config
 }, function (error) {
     // 如果请求出错了(还没有发送出去) 会进入这里
